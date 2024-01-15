@@ -1,0 +1,39 @@
+.LivePage_color{
+    background-color: rgb(220, 190, 249);
+    z-index: 2;
+}
+.LivePage_span{
+    color: rgb(11, 11, 11);
+}
+#open
+{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(57, 52, 52);
+}
+.LivePage_flex{
+    display:flex;
+    padding:0 10px;
+    border-bottom: 1px solid rgb(64, 58, 58);
+    justify-content: space-between;
+}
+.LivePage_outer_div{
+    border-bottom: 1px solid rgb(57, 52, 52);
+    
+}
+.LivePage_inner_div{
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin:10px 30px;
+
+}
+.LivePage_info {
+    padding: 10px;
+}
+.LivePage_info1 {
+    padding: 10px;
+    color: rgb(178, 7, 7);
+    font-weight: 500;
+}
+.LivePage_title{
+    margin: 10px 20px;
+}
