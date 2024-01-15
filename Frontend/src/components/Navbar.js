@@ -53,14 +53,18 @@ const Navbar = ({active}) => {
                   <Box sx={style} style={{ color: "#FFFFFF", opacity: active === 4 ? "1": "0.6" }}>Uploads</Box>
                </Box>
                </Link>
+               <Link to="/history">
                <Box sx={style2}>
                   <Button><FontAwesomeIcon icon={faClockRotateLeft} size="xl" style={{ color: "#FFFFFF", opacity: active === 5 ? "1": "0.6" }} /></Button>
                   <Box sx={style} style={{ color: "#FFFFFF", opacity: active === 5 ? "1": "0.6" }}>History</Box>
                </Box>
+               </Link>
+               <Link to="/anomaly">
                <Box sx={style3}>
                   <Button ><FontAwesomeIcon icon={faTriangleExclamation} size="xl" style={{ color: "#FFFFFF", opacity: active === 6 ? "1": "0.6" }} /></Button>
                   <Box sx={style} style={{ color: "#FFFFFF", opacity: active === 6 ? "1": "0.6" }}>Anomaly</Box>
                </Box>
+               </Link>
             </Toolbar>
          </Appbar>
          <Outlet />
